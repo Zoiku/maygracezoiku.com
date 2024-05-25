@@ -26,7 +26,7 @@ const aboutSummary = [
   },
   {
     title: "Experience",
-    value: "5+ Years",
+    value: "3+ Years",
   },
   {
     title: "Employer",
