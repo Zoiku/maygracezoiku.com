@@ -57,10 +57,9 @@
 }
 
 .skill {
-  margin: 0 50px;
   position: relative;
   font-weight: 700;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 .about-container {
@@ -75,7 +74,7 @@
 }
 
 .about-left {
-  width: 500px;
+  width: 550px;
   position: relative;
 }
 
@@ -98,6 +97,7 @@
 
 .about-details-title {
   font-size: x-large;
+  font-weight: 700;
 }
 
 .about-details-text {
@@ -108,6 +108,8 @@
   display: flex;
   align-items: flex-start;
   gap: 30px;
+  font-weight: 700;
+  flex-wrap: wrap;
 }
 
 .about-summary-item {
@@ -131,7 +133,7 @@
   }
 
   .about-container {
-    padding: 50px 10px;
+    padding: 0 50px 10px 10px;
   }
 
   .about {

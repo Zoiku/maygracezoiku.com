@@ -25,6 +25,10 @@ const aboutSummary = [
     value: "Swansea",
   },
   {
+    title: "Experience",
+    value: "5+ Years",
+  },
+  {
     title: "Employer",
     value: "Lloyds Bank",
   },
@@ -65,13 +69,18 @@ const Home = () => (
 
         <div className="about-right">
           <div className="about-details-title">
-            With over a 3 Years experience in the banking industry, I am a
+            With over 3 Years experience in the banking industry, I am a
             dedicated Senior Customer Advisor at Lloyds Bank, committed to
             providing personalized financial solutions and exceptional customer
             service to help clients achieve their financial goals.
           </div>
           <div className="about-details-text">
-            [ Something brief about you & your work ]
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos repellendus ea ab fugit veritatis? Voluptatem
+            voluptatibus suscipit, provident architecto quis ipsa voluptates
+            unde iure asperiores totam quidem modi accusantium reprehenderit
+            ullam eos, veritatis dicta laboriosam quaerat autem quia labore
+            assumenda!
           </div>
           <div className="about-summary">
             {aboutSummary.map((summary, index) => (
