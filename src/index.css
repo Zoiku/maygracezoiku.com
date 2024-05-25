@@ -18,3 +18,7 @@
 .highlight {
   color: var(--highlight);
 }
+
+body {
+  overflow-x: clip;
+}

@@ -58,7 +58,7 @@
 .skill {
   position: relative;
   font-weight: 700;
-  padding: 50px 20px;
+  padding: 50px 40px;
 }
 
 .about-container {
@@ -96,7 +96,7 @@
 
 .about-details-title {
   font-size: x-large;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .about-details-text {
@@ -107,7 +107,6 @@
   display: flex;
   align-items: flex-start;
   gap: 10px 30px;
-  font-weight: 700;
   flex-wrap: wrap;
 }
 
@@ -115,11 +114,11 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+  font-weight: 500;
 }
 
 .about-summary-item-title {
   color: var(--highlight);
-  font-weight: 500;
 }
 
 @media screen and (max-width: 1150px) {

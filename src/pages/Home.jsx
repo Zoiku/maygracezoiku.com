@@ -94,7 +94,7 @@ const Home = () => (
             data-aos="fade-up"
             className="about-details-title"
           >
-            With over 3 Years experience in the banking industry, I am a
+            With over <span className="highlight">3 Years experience</span> in the <span className="highlight">banking industry</span>, I am a
             dedicated Senior Customer Advisor at Lloyds Bank, committed to
             providing <span className="highlight">personalized financial solutions</span> and{" "}
             <span className="highlight">exceptional customer service</span> to
@@ -127,6 +127,8 @@ const Home = () => (
         </div>
       </div>
     </Centered>
+
+    
   </div>
 );
 
