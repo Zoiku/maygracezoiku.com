@@ -22,7 +22,7 @@ const MUISpeedDial = () => {
         break;
 
       case speedDialActionTypes.LINKEDIN:
-        window.open("https://www.linkedin.com/", "_blank");
+        window.open("https://www.linkedin.com/in/maygracezoiku/", "_blank");
         break;
 
       default:

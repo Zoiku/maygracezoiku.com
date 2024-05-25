@@ -2,6 +2,10 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./layout/Layout";
 import SpeedDial from "./components/MUISpeedDial";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+Aos.init();
 
 const App = () => (
   <>

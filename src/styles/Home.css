@@ -17,7 +17,6 @@
 
 .landing-art {
   height: 100%;
-  opacity: 0.8;
   animation: levitating 2s ease infinite;
 }
 
@@ -27,14 +26,14 @@
 }
 
 .landing-text {
-  font-size: 70px;
+  font-size: 50px;
   letter-spacing: 5px;
   font-weight: 800;
   color: gray;
 }
 
 .landing-text .highlight {
-  color: black;
+  font-size: 80px;
 }
 
 @keyframes levitating {
@@ -63,7 +62,7 @@
 }
 
 .about-container {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .about {
@@ -124,16 +123,29 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .landing {
+    height: 100%;
+    padding: 100px 0;
+  }
+
+  .landing-art-container {
+    position: relative;
+  }
+
   .landing-art {
     width: 100%;
   }
 
   .landing-text {
-    font-size: larger;
+    font-size: large;
+  }
+
+  .landing-text .highlight {
+    font-size: x-large;
   }
 
   .about-container {
-    padding: 0 50px 10px 10px;
+    padding: 0 10px 50px 10px;
   }
 
   .about {

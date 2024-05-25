@@ -1,8 +1,8 @@
 import "../styles/Home.css";
 import Centered from "../components/Center";
-import landingart from "../assets/Environment-bro.svg";
+import landingart from "../assets/Connected world-pana.svg";
 import Marquee from "react-fast-marquee";
-import svg from "../assets/Finance leaders-pana.svg";
+import svg from "../assets/Goal-cuate.svg";
 
 const skills = [
   "Commercial Banking",
@@ -24,13 +24,18 @@ const aboutSummary = [
     title: "Location",
     value: "Swansea",
   },
+
+  {
+    title: "Employer",
+    value: "Lloyds Bank",
+  },
   {
     title: "Experience",
     value: "3+ Years",
   },
   {
-    title: "Employer",
-    value: "Lloyds Bank",
+    title: "Education",
+    value: "MSc in International Finance",
   },
 ];
 
@@ -39,10 +44,20 @@ const Home = () => (
     <Centered className={"landing-container"}>
       <section className="landing">
         <div className="landing-art-container">
-          <img className="landing-art" src={landingart} alt="" />
+          <img
+            data-aos-duration="1000"
+            data-aos="fade-up"
+            className="landing-art"
+            src={landingart}
+            alt="cover"
+          />
         </div>
         <div className="landing-text-container">
-          <div className="landing-text">
+          <div
+            data-aos-duration="1000"
+            data-aos="fade-down"
+            className="landing-text"
+          >
             www.<span className="highlight">maygracezoiku</span>.com
           </div>
         </div>
@@ -63,18 +78,33 @@ const Home = () => (
       <div className="about">
         <div className="about-left">
           <div className="about-left-background-container">
-            <img className="about-left-background" src={svg} alt="" />
+            <img
+              data-aos-duration="1000"
+              data-aos="fade-up"
+              className="about-left-background"
+              src={svg}
+              alt=""
+            />
           </div>
         </div>
 
         <div className="about-right">
-          <div className="about-details-title">
+          <div
+            data-aos-duration="1000"
+            data-aos="fade-up"
+            className="about-details-title"
+          >
             With over 3 Years experience in the banking industry, I am a
             dedicated Senior Customer Advisor at Lloyds Bank, committed to
-            providing personalized financial solutions and exceptional customer
-            service to help clients achieve their financial goals.
+            providing <span className="highlight">personalized financial solutions</span> and{" "}
+            <span className="highlight">exceptional customer service</span> to
+            help clients achieve their financial goals.
           </div>
-          <div className="about-details-text">
+          <div
+            data-aos-duration="1000"
+            data-aos="fade-up"
+            className="about-details-text"
+          >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Dignissimos repellendus ea ab fugit veritatis? Voluptatem
             voluptatibus suscipit, provident architecto quis ipsa voluptates
@@ -82,7 +112,11 @@ const Home = () => (
             ullam eos, veritatis dicta laboriosam quaerat autem quia labore
             assumenda!
           </div>
-          <div className="about-summary">
+          <div
+            data-aos-duration="1000"
+            data-aos="fade-up"
+            className="about-summary"
+          >
             {aboutSummary.map((summary, index) => (
               <div key={index} className="about-summary-item">
                 <div className="about-summary-item-title">{summary.title}</div>
