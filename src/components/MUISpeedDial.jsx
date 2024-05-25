@@ -39,12 +39,12 @@ const MUISpeedDial = () => {
     {
       icon: <Mail />,
       name: "Send us an email",
-      function: doAction(speedDialActionTypes.MAIL, "hello@burbankbosch.com"),
+      function: doAction(speedDialActionTypes.MAIL, ""),
     },
     {
       icon: <WhatsApp />,
       name: "Connect Via Whatsapp",
-      function: doAction(speedDialActionTypes.WHATSAPP, "233209384829"),
+      function: doAction(speedDialActionTypes.WHATSAPP, ""),
     },
   ];
 
