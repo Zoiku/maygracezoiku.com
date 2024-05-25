@@ -1,0 +1,14 @@
+.center-div {
+  display: flex;
+  justify-content: center;
+}
+
+.div-centered {
+  width: 1150px;
+}
+
+@media screen and (max-width: 1150px) {
+  .div-centered {
+    width: 100%;
+  }
+}
