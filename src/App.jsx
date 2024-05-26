@@ -16,7 +16,7 @@ const App = () => (
       </Route>
     </Routes>
     <SpeedDial />
-    <Confetti mode="boom" particleCount={200} effectCount={2} />
+    <Confetti mode="boom" particleCount={200} effectCount={1} />
   </div>
 );
 

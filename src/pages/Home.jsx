@@ -94,11 +94,13 @@ const Home = () => (
             data-aos="fade-up"
             className="about-details-title"
           >
-            With over <span className="highlight">3 Years experience</span> in the <span className="highlight">banking industry</span>, I am a
+            With over <span className="highlight">3 Years experience</span> in
+            the <span className="highlight">banking industry</span>, I am a
             dedicated Senior Customer Advisor at Lloyds Bank, committed to
-            providing <span className="highlight">personalized financial solutions</span> and{" "}
-            <span className="highlight">exceptional customer service</span> to
-            help clients achieve their financial goals.
+            providing{" "}
+            <span className="highlight">personalized financial solutions</span>{" "}
+            and <span className="highlight">exceptional customer service</span>{" "}
+            to help clients achieve their financial goals.
           </div>
           <div
             data-aos-duration="1000"
@@ -128,7 +130,9 @@ const Home = () => (
       </div>
     </Centered>
 
-    
+    {/* <Centered className={"outreach-container"}>
+      <div className="outreach"></div>
+    </Centered> */}
   </div>
 );
 

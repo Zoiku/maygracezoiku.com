@@ -26,7 +26,7 @@
 }
 
 .landing-text {
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 5px;
   font-weight: 800;
   color: gray;
@@ -121,14 +121,24 @@
   color: var(--highlight);
 }
 
+.outreach-container {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+}
+
+.outreach {
+  border: 1px solid red;
+}
+
 @media screen and (max-width: 1150px) {
   .landing {
-    height: 100%;
-    padding: 100px 0;
+    height: 600px;
+    padding: 0;
   }
 
   .landing-art-container {
     position: relative;
+    height: 100%;
   }
 
   .landing-art {
