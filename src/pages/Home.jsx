@@ -88,12 +88,12 @@ const Home = () => (
           </div>
         </div>
 
-        <div className="about-right">
-          <div
-            data-aos-duration="1000"
-            data-aos="fade-up"
-            className="about-details-title"
-          >
+        <div
+          data-aos-duration="1000"
+          data-aos="fade-up"
+          className="about-right"
+        >
+          <div className="about-details-title">
             With over <span className="highlight">3 Years experience</span> in
             the <span className="highlight">banking industry</span>, I am a
             dedicated Senior Customer Advisor at Lloyds Bank, committed to
@@ -102,11 +102,7 @@ const Home = () => (
             and <span className="highlight">exceptional customer service</span>{" "}
             to help clients achieve their financial goals.
           </div>
-          <div
-            data-aos-duration="1000"
-            data-aos="fade-up"
-            className="about-details-text"
-          >
+          <div className="about-details-text">
             I am a dedicated Customer Consultant at Lloyds Banking Group,
             passionate about delivering exceptional client service and financial
             guidance. Based in Swansea, West Glamorgan, I excel in clear
@@ -114,11 +110,7 @@ const Home = () => (
             best advice. I enjoy staying updated with industry trends and
             engaging in community activities.
           </div>
-          <div
-            data-aos-duration="1000"
-            data-aos="fade-up"
-            className="about-summary"
-          >
+          <div className="about-summary">
             {aboutSummary.map((summary, index) => (
               <div key={index} className="about-summary-item">
                 <div className="about-summary-item-title">{summary.title}</div>
