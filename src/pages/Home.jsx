@@ -1,8 +1,8 @@
 import "../styles/Home.css";
 import Centered from "../components/Center";
-import landingart from "../assets/Connected world-pana.svg";
+import landingart from "../assets/Investing-cuate.svg";
 import Marquee from "react-fast-marquee";
-import svg from "../assets/Goal-cuate.svg";
+import svg from "../assets/Saving money-cuate.svg";
 
 const skills = [
   "Commercial Banking",
@@ -107,12 +107,12 @@ const Home = () => (
             data-aos="fade-up"
             className="about-details-text"
           >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Dignissimos repellendus ea ab fugit veritatis? Voluptatem
-            voluptatibus suscipit, provident architecto quis ipsa voluptates
-            unde iure asperiores totam quidem modi accusantium reprehenderit
-            ullam eos, veritatis dicta laboriosam quaerat autem quia labore
-            assumenda!
+            I am a dedicated Customer Consultant at Lloyds Banking Group,
+            passionate about delivering exceptional client service and financial
+            guidance. Based in Swansea, West Glamorgan, I excel in clear
+            communication and efficient support, ensuring clients receive the
+            best advice. I enjoy staying updated with industry trends and
+            engaging in community activities.
           </div>
           <div
             data-aos-duration="1000"

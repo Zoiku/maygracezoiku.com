@@ -85,6 +85,7 @@
 .about-left-background {
   height: 100%;
   width: 100%;
+  animation: levitating 2s ease infinite;
 }
 
 .about-right {
@@ -127,13 +128,14 @@
 }
 
 .outreach {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 @media screen and (max-width: 1150px) {
   .landing {
     height: 600px;
-    padding: 0;
   }
 
   .landing-art-container {
@@ -146,11 +148,11 @@
   }
 
   .landing-text {
-    font-size: large;
+    font-size: initial;
   }
 
   .landing-text .highlight {
-    font-size: x-large;
+    font-size: large;
   }
 
   .about-container {
