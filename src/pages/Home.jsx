@@ -39,6 +39,30 @@ const aboutSummary = [
   },
 ];
 
+const volunteering = [
+  {
+    title: "Cancer Research",
+    role: "Office assistant",
+    location: "UK, Swansea",
+    details:
+      "Helping with clerical tasks such as data entry, managing correspondence, organizing files, and other administrative duties that keep the organization running smoothly",
+  },
+  {
+    title: "Cancer Research",
+    role: "Community Outreach",
+    location: "UK, Swansea",
+    details:
+      "Educating the public about cancer prevention, early detection, and treatment options through workshops, presentations, and informational booths at community events",
+  },
+  {
+    title: "City Church",
+    role: "Kid's tutor",
+    location: "UK, Swansea",
+    details:
+      "Organizing engaging lecture notes for kids 5-11 involves selecting captivating topics, colorful visuals, and interactive elements, showcasing leadership and communication skills through simple language and storytelling",
+  },
+];
+
 const Home = () => (
   <div className="home">
     <Centered className={"landing-container"}>
@@ -103,12 +127,12 @@ const Home = () => (
             to help clients achieve their financial goals.
           </div>
           <div className="about-details-text">
-            I am a dedicated Customer Consultant at Lloyds Banking Group,
-            passionate about delivering exceptional client service and financial
-            guidance. Based in Swansea, West Glamorgan, I excel in clear
-            communication and efficient support, ensuring clients receive the
-            best advice. I enjoy staying updated with industry trends and
-            engaging in community activities.
+            I am a Customer Consultant at Lloyds Banking Group, passionate about
+            delivering exceptional client service and financial guidance. Based
+            in Swansea, West Glamorgan, I excel in clear communication and
+            efficient support, ensuring clients receive the best advice. I enjoy
+            staying updated with industry trends and engaging in community
+            activities.
           </div>
           <div className="about-summary">
             {aboutSummary.map((summary, index) => (
@@ -122,9 +146,27 @@ const Home = () => (
       </div>
     </Centered>
 
-    {/* <Centered className={"outreach-container"}>
-      <div className="outreach"></div>
-    </Centered> */}
+    <Centered className={"outreach-container"}>
+      <div className="outreach">
+        <div className="section-title">
+          Volunteering & <span className="highlight">Community</span> Engagement
+        </div>
+        <div className="volunteering-row">
+          {volunteering.map((volunteer, index) => (
+            <div key={index} className="volunteering-item">
+              <div className="volunteer-index">0{index}</div>
+              <div className="volunteering-head">
+                <div className="volunteering-role">{volunteer.role}</div>
+                <div className="volunteering-title">
+                  {volunteer.title} | {volunteer.location}
+                </div>
+              </div>
+              <div className="volunteering-body">{volunteer.details}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Centered>
   </div>
 );
 

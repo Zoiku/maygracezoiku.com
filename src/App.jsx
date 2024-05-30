@@ -4,7 +4,7 @@ import Layout from "./layout/Layout";
 import SpeedDial from "./components/MUISpeedDial";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Confetti from "react-confetti-boom";
+// import Confetti from "react-confetti-boom";
 
 Aos.init();
 
@@ -16,7 +16,7 @@ const App = () => (
       </Route>
     </Routes>
     <SpeedDial />
-    <Confetti mode="boom" particleCount={200} effectCount={1} />
+    {/* <Confetti mode="boom" particleCount={200} effectCount={1} /> */}
   </div>
 );
 
