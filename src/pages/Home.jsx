@@ -59,7 +59,7 @@ const volunteering = [
     role: "Kid's tutor",
     location: "UK, Swansea",
     details:
-      "Organizing engaging lecture notes for kids 5-11 involves selecting captivating topics, colorful visuals, and interactive elements, showcasing leadership and communication skills through simple language and storytelling",
+      "Organizing engaging lecture notes for kids 5-11 which includes selecting captivating topics, colorful visuals, and interactive elements, showcasing leadership and communication skills through simple language and storytelling",
   },
 ];
 
