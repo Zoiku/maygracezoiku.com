@@ -173,7 +173,7 @@
 
 @media screen and (max-width: 1150px) {
   .landing {
-    height: 600px;
+    height: 500px;
   }
 
   .landing-art-container {
@@ -190,7 +190,8 @@
   }
 
   .landing-text .highlight {
-    font-size: large;
+    font-size: larger;
+    font-weight: 900;
   }
 
   .about-container {
@@ -213,7 +214,7 @@
   }
 
   .outreach {
-    gap: 40px;
+    gap: 30px;
   }
 
   .section-title {
@@ -228,5 +229,6 @@
 
   .volunteer-index {
     font-size: 150px;
+    color: #46a36014;
   }
 }

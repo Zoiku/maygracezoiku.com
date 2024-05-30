@@ -154,7 +154,7 @@ const Home = () => (
         <div className="volunteering-row">
           {volunteering.map((volunteer, index) => (
             <div key={index} className="volunteering-item">
-              <div className="volunteer-index">0{index}</div>
+              <div className="volunteer-index">0{index+1}</div>
               <div className="volunteering-head">
                 <div className="volunteering-role">{volunteer.role}</div>
                 <div className="volunteering-title">
